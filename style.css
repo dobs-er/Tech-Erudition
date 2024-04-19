@@ -217,6 +217,79 @@ h4 {
 .img-bg img {
   width: 100%;
 }
+.contact-us {
+  width: 100%;
+  height: 40dvh;
+  background-color: #e0f0fe;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.us {
+  width: 70%;
+}
+.us h1 {
+  width: 40%;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+.us p {
+  width: 60%;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+footer {
+  color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#cont a {
+  color: #ffff;
+  text-decoration: none;
+}
+.group {
+  padding: 10px 50px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.s1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  justify-content: start;
+  color: #989898;
+}
+.s1 img {
+  width: 50%;
+}
+.s1 h3 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 1.5rem;
+  color: #5f5f5f;
+  font-weight: 800;
+}
+.s1 ul li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+.s1 ul li a {
+  text-decoration: none;
+  color: #989898;
+}
+
+.copyright {
+  padding: 15px;
+  width: 100%;
+  display: flex;
+  background-color: #068afd;
+  color: #ffff;
+  align-items: center;
+  justify-content: center;
+}
 
 @media screen and (max-width: 480px) {
   html,
